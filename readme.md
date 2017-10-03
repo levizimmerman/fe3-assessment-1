@@ -91,3 +91,4 @@ This project focuses on rendering a map of Europe and displaying data about the 
 * Add Malta to the map;
 
 ## License
+[MIT](https://choosealicense.com/licenses/mit/) &copy; Levi Zimmerman
