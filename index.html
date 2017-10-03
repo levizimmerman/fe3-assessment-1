@@ -1,13 +1,43 @@
 <!DOCTYPE html lang="en">
+
 <head>
   <meta charset="utf-8">
   <link href="./index.css" rel="stylesheet">
+  <title>@levizimmerman</title>
 </head>
+
 <body>
-  <div id="map"></div>
-  <script src="//d3js.org/d3.v3.js"></script>
-  <script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
+  <header class="header">
+    <div class="header__container">
+      <h1 class="header__title">
+        Population without indoor toilet (Europe 2005-2016)<br>
+        <small>Source: <a href="http://data.europa.eu/euodp/en/data/dataset/uuXBX1CHvFKRWmCuLAKA">data.europe.eu</a></small>
+      </h1>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main__map" id="map"></section>
+    <section class="main__controls">
+      <div class="main__controls__container">
+        <div class="main__controls__current_year" id="currentYear"></div>
+        <input class="main__controls__range" id="yearSelect" type="range" min="2005" max="2016" step="1">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <ul>
+        <li>Created by <a href="https://github.com/levizimmerman">@levizimmerman</a></li>
+        <li>Commissioned by Hogeschool van Amsterdam</li>
+        <li>Student#500546086</li>
+        <li>Last update: 03/10/2017</li>
+      </ul>
+    </div>
+  </footer>
+  <script src="//d3js.org/d3.v4.js"></script>
   <script src="//d3js.org/topojson.v1.min.js"></script>
+  <script src="./events.js"></script>
   <script src="./index.js"></script>
 </body>
+
 </html>
