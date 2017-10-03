@@ -18,8 +18,6 @@
   var buckets = 5; // Number of defined groups of percentages
   var yearSelect = document.getElementById('yearSelect');
   var currentYearElement = document.getElementById('currentYear');
-  
-  console.log('test');
 
   renderMap(topoFile);
 
