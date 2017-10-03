@@ -5,7 +5,7 @@
   var width = window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth;
   var height = window.innerHeight;
   var center = [10, 71];
-  var scale = width / 2;
+  var scale = width / 1.5;
   var year = 2009;
   var projection = d3.geoMercator().scale(scale).translate([width / 2, 0]).center(center);
   var path = d3.geoPath().projection(projection);
