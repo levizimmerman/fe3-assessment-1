@@ -18,10 +18,48 @@ a {
   color: red;
 }
 
+/*
+* SVG styles
+*/
+
 svg {
   margin: 0 auto;
   display: block;
 }
+
+path.country {
+  transition: fill 0.1s ease-in-out;
+}
+
+path.country:hover {
+  fill: #006060;
+}
+
+.legend text {
+  fill: #fff;
+  font-weight: 100;
+  font-size: 0.8rem;
+  text-shadow: 0px 1px 0px rgba(0,0,0,0.3), 0px -1px 0px rgba(0,0,0,0.3);
+}
+
+.country-name {
+  color: #222;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 2px 0px #a6a6a6;
+  padding: 0.3rem;
+  text-shadow: #f5f5f5 0 1px 0;
+  font-size: 0.7rem;
+  position: absolute;
+}
+
+.country-name.hidden {
+  display: none;
+}
+
+/*
+* Header styles
+*/
 
 .header {
   background: #f5f5f5;
@@ -43,6 +81,17 @@ svg {
   font-size: 0.5em;
   display: inline-block;
   margin-top: 0.2rem;
+}
+
+/*
+* Main styles
+*/
+.main {
+  text-align: center;
+}
+
+.main__map {
+    display: inline-block;
 }
 
 .main__controls {
