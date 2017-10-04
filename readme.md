@@ -1,6 +1,6 @@
 # Population without indoor toilet: A D3 datavisualization
 This is a datavisualization project where population without indoor toilet is displayed per country on a map of Europe.
-![preview-map.png](https://github.com/levizimmerman/fe3-assessment-1/blob/master/preview-map.png?raw=true)
+![preview-map.png](https://github.com/levizimmerman/fe3-assessment-1/blob/master/preview.png?raw=true)
 
 ## Background
 This project focuses on rendering a map of Europe and displaying data about the countries on that map. Futhermore a range slider is implemented to scroll through the years that are present in the data set.
